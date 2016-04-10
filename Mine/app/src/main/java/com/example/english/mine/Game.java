@@ -73,6 +73,7 @@ public class Game{
             }
             b.setText(mines_around);
             b.setTextSize(5f);
+            b.setEnabled(false);
         }
     }
     public void stopGame(String s){
